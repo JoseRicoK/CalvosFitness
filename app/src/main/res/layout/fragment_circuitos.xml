@@ -1,0 +1,122 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/textViewTituloCircuito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Circuito de Entrenamiento"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <!-- Grid de ImageViews (3x3) -->
+    <GridLayout
+        android:id="@+id/gridLayoutCircuito"
+        android:layout_width="match_parent"
+        android:layout_height="675dp"
+        android:layout_below="@id/textViewTituloCircuito"
+        android:columnCount="3"
+        android:padding="16dp"
+        android:rowCount="3">
+
+        <!-- Primera fila -->
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="8dp"
+            android:layout_height="115dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tu_imagen_1" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="15dp"
+            android:layout_height="94dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tu_imagen_2" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="4dp"
+            android:layout_height="93dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tu_imagen_3" />
+
+        <!-- Segunda fila -->
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="22dp"
+            android:layout_height="95dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tu_imagen_4" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tu_imagen_5" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tu_imagen_6" />
+
+        <!-- Tercera fila -->
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="274dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tu_imagen_4" />
+
+        <ImageButton
+            android:id="@+id/Button8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tu_imagen_5" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tu_imagen_6" />
+
+    </GridLayout>
+
+</RelativeLayout>
