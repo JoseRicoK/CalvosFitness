@@ -26,7 +26,7 @@
 
         <!-- Primera fila -->
         <ImageButton
-            android:id="@+id/imageButton1"
+            android:id="@+id/Cuello"
             android:layout_width="8dp"
             android:layout_height="115dp"
             android:layout_columnWeight="1"
@@ -36,7 +36,7 @@
             android:src="@drawable/tu_imagen_1" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/Pecho"
             android:layout_width="15dp"
             android:layout_height="94dp"
             android:layout_columnWeight="1"
@@ -46,7 +46,7 @@
             android:src="@drawable/tu_imagen_2" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/Espalda"
             android:layout_width="4dp"
             android:layout_height="93dp"
             android:layout_columnWeight="1"
@@ -57,7 +57,7 @@
 
         <!-- Segunda fila -->
         <ImageButton
-            android:id="@+id/imageButton4"
+            android:id="@+id/Biceps"
             android:layout_width="22dp"
             android:layout_height="95dp"
             android:layout_columnWeight="1"
@@ -67,7 +67,7 @@
             android:src="@drawable/tu_imagen_4" />
 
         <ImageButton
-            android:id="@+id/imageButton5"
+            android:id="@+id/Triceps"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
@@ -77,7 +77,7 @@
             android:src="@drawable/tu_imagen_5" />
 
         <ImageButton
-            android:id="@+id/imageButton6"
+            android:id="@+id/Pierna"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
@@ -88,7 +88,7 @@
 
         <!-- Tercera fila -->
         <ImageButton
-            android:id="@+id/imageButton7"
+            android:id="@+id/antebrazo"
             android:layout_width="wrap_content"
             android:layout_height="274dp"
             android:layout_columnWeight="1"
@@ -98,7 +98,7 @@
             android:src="@drawable/tu_imagen_4" />
 
         <ImageButton
-            android:id="@+id/Button8"
+            android:id="@+id/gluteos"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
@@ -108,7 +108,7 @@
             android:src="@drawable/tu_imagen_5" />
 
         <ImageButton
-            android:id="@+id/imageButton9"
+            android:id="@+id/cardio"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
