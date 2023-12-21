@@ -32,8 +32,10 @@
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
             android:layout_margin="8dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/tu_imagen_1" />
+            android:scaleType="centerCrop">
+
+        </ImageButton>
+           <!-- android:src="@drawable/tu_imagen_1" /> -->
 
         <ImageButton
             android:id="@+id/Pecho"
@@ -42,8 +44,10 @@
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
             android:layout_margin="8dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/tu_imagen_2" />
+            android:scaleType="centerCrop">
+
+        </ImageButton>
+           <!-- android:src="@drawable/tu_imagen_2" />> -->
 
         <ImageButton
             android:id="@+id/Espalda"
@@ -52,8 +56,10 @@
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
             android:layout_margin="8dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/tu_imagen_3" />
+            android:scaleType="centerCrop">
+
+        </ImageButton>
+           <!-- android:src="@drawable/tu_imagen_3" />> -->
 
         <!-- Segunda fila -->
         <ImageButton
@@ -63,8 +69,10 @@
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
             android:layout_margin="8dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/tu_imagen_4" />
+            android:scaleType="centerCrop">
+
+        </ImageButton>
+           <!-- android:src="@drawable/tu_imagen_4" />> -->
 
         <ImageButton
             android:id="@+id/Triceps"
@@ -73,8 +81,10 @@
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
             android:layout_margin="8dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/tu_imagen_5" />
+            android:scaleType="centerCrop">
+
+        </ImageButton>
+           <!-- android:src="@drawable/tu_imagen_5" />> -->
 
         <ImageButton
             android:id="@+id/Pierna"
@@ -83,8 +93,10 @@
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
             android:layout_margin="8dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/tu_imagen_6" />
+            android:scaleType="centerCrop">
+
+        </ImageButton>
+          <!--  android:src="@drawable/tu_imagen_6" />> -->
 
         <!-- Tercera fila -->
         <ImageButton
@@ -94,8 +106,10 @@
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
             android:layout_margin="8dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/tu_imagen_4" />
+            android:scaleType="centerCrop">
+
+        </ImageButton>
+          <!--  android:src="@drawable/tu_imagen_4" />> -->
 
         <ImageButton
             android:id="@+id/gluteos"
@@ -104,8 +118,10 @@
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
             android:layout_margin="8dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/tu_imagen_5" />
+            android:scaleType="centerCrop">
+
+        </ImageButton>
+          <!--  android:src="@drawable/tu_imagen_5" />> -->
 
         <ImageButton
             android:id="@+id/cardio"
@@ -114,8 +130,10 @@
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
             android:layout_margin="8dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/tu_imagen_6" />
+            android:scaleType="centerCrop">
+
+        </ImageButton>
+          <!--  android:src="@drawable/tu_imagen_6" -->
 
     </GridLayout>
 
