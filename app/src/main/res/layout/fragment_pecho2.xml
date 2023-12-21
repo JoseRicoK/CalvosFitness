@@ -6,7 +6,7 @@
     <!-- imagen del ejercicio de cuello -->
 
     <ImageView
-        android:id="@+id/imageViewCuello"
+        android:id="@+id/imageViewPecho2"
         android:layout_width="247dp"
         android:layout_height="213dp"
         android:layout_centerInParent="true"
@@ -18,7 +18,7 @@
         android:id="@+id/textViewTemporizador"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/imageViewCuello"
+        android:layout_below="@id/imageViewPecho2"
         android:layout_centerHorizontal="true"
         android:text="00:00"
         android:textSize="24sp"

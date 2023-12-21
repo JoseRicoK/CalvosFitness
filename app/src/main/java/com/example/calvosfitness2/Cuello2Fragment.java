@@ -15,9 +15,9 @@ import androidx.fragment.app.Fragment;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
-public class CuelloFragment extends Fragment {
+public class Cuello2Fragment extends Fragment {
 
-    private ImageView imageViewCuello;
+    private ImageView imageViewCuello2;
     private TextView textViewTemporizador;
     private Button buttonStart;
 
@@ -29,9 +29,9 @@ public class CuelloFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_cuello, container, false);
+        View view = inflater.inflate(R.layout.fragment_cuello2, container, false);
 
-        imageViewCuello = view.findViewById(R.id.imageViewCuello);
+        imageViewCuello2 = view.findViewById(R.id.imageViewCuello2);
         textViewTemporizador = view.findViewById(R.id.textViewTemporizador);
         buttonStart = view.findViewById(R.id.buttonStart);
 
@@ -91,6 +91,6 @@ public class CuelloFragment extends Fragment {
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT);
 
         NotificationManagerCompat notificationManager = NotificationManagerCompat.from(requireContext());
-        notificationManager.notify(3, builder.build());
+        notificationManager.notify(2, builder.build());
     }
 }
